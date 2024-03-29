@@ -266,19 +266,20 @@ body {
 
 .info-box p {
   font-weight: 700;
-  font-size: 15px;
+  font-size: 13px;
 }
 
 .title-box h2 {
-  font-size: 20px;
+  font-size: 21px;
   font-weight: 800;
-  line-height: 25px;
+  line-height: 20px;
 }
 
 .title-box h3 {
-  font-size: 15px;
+  font-size: 16px;
   color: #6b6b6b;
   padding-top: 5px;
+  line-height: 20px;
 }
 
 .data-box p {
