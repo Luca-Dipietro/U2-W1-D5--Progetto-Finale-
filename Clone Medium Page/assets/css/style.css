@@ -23,6 +23,10 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  transition: backgroundColor 0.5s ease;
 }
 
 .width {
@@ -372,4 +376,8 @@ body {
   color: #6b6b6b;
   line-height: 20px;
   font-size: 15px;
+}
+
+.nav.scrolled {
+  background-color: white;
 }
