@@ -16,14 +16,22 @@ window.addEventListener("scroll", function () {
 // Event letters
 
 function getRandom(min, max) {
-  return Math.random() * (max - min) + min;
+  return Math.floor(Math.random() * (max - min) + min);
 }
 
 function randomOpacity() {
-  const letters = document.querySelectorAll("#random-letters");
-  letters.forEach((letter) => {
-    letter.setAttribute("opacity", getRandom(0, 1));
+  const animatedLetters = document.querySelectorAll(
+    "#random-letters .animated-letters"
+  );
+  const staticLetters = document.querySelectorAll(
+    "#random-letters text:not(.animated-letters)"
+  );
+  animatedLetters.forEach((letter) => {
+    letter.setAttribute("opacity", getRandom(0, 2));
+  });
+  staticLetters.forEach((letter) => {
+    letter.setAttribute("opacity", 1);
   });
 }
 
-setInterval(randomOpacity, 2000);
+setInterval(randomOpacity, 800);
