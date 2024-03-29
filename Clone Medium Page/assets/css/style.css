@@ -1,0 +1,290 @@
+* {
+  box-sizing: inherit;
+}
+
+body {
+  position: relative;
+  min-height: 100vh;
+  color: #191919;
+}
+
+.header {
+  background-color: #ffc017;
+  border-bottom: 1px solid #191919;
+}
+
+.nav {
+  border-bottom: 1px solid #191919;
+  background-color: #ffc017;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.width {
+  max-width: 1150px;
+  min-width: 0px;
+  width: 100%;
+  margin: 0px 65px;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 25px;
+  padding: 25px 0px;
+}
+
+.logo {
+  height: 25px;
+}
+
+.onRight {
+  flex: 1 0 auto;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.navS {
+  margin-right: 25px;
+}
+
+.navB {
+  background-color: #191919;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 20px;
+  font-size: 15px;
+}
+
+.header-main {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  height: 465px;
+}
+
+.mmm {
+  position: absolute;
+  right: 0;
+}
+
+.text-headerMain {
+  display: flex;
+  flex-direction: column;
+  height: 465px;
+  padding-top: 95px;
+  padding-bottom: 90px;
+  width: 600px;
+}
+
+.title {
+  margin-bottom: 35px;
+  font-size: 110px;
+  line-height: 90px;
+}
+
+.subT {
+  margin-bottom: 70px;
+  font-size: 29px;
+  line-height: 25px;
+  width: 80%;
+}
+
+.btn-start button {
+  font-size: 20px;
+  padding: 8px 20px;
+  width: 170px;
+  line-height: 25px;
+  text-align: center;
+  border-radius: 25px;
+  background-color: #191919;
+  color: white;
+  border: none;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.trending-flex {
+  display: flex;
+  justify-content: center;
+}
+
+.trending-title {
+  padding-top: 40px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.trending-title img {
+  margin-right: 10px;
+}
+
+.trending-title h2 {
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.trend-cont {
+  width: 100%;
+}
+
+.cont-flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  padding-bottom: 20px;
+}
+
+.cont-width {
+  max-width: 30%;
+  flex-basis: 33.333%;
+  padding-left: 18.5px;
+  padding-right: 18.5px;
+}
+
+.context {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+  align-items: flex-start;
+  margin-bottom: 40px;
+}
+
+.n {
+  margin-right: 15px;
+  top: -5px;
+  position: relative;
+  font-size: 30px;
+  color: rgba(0, 0, 0, 0.2);
+  font-weight: bold;
+}
+
+.text-trending {
+  display: flex;
+  flex-direction: column;
+}
+
+.info-text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.info-text img {
+  border-radius: 50px;
+  width: 25px;
+}
+
+.info-text p {
+  font-size: 13.5px;
+  margin-left: 10px;
+  font-weight: 800;
+}
+
+.title-text {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.data-text {
+  font-size: 15px;
+  color: #6b6b6b;
+  line-height: 20px;
+}
+
+.section {
+  padding-top: 55px;
+  border-top: 1px solid #f2f2f2;
+}
+
+.section-flex {
+  display: flex;
+  justify-content: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr) repeat(4, minmax(50px, 1fr));
+  grid-template-rows: 1fr;
+}
+
+.section-main {
+  grid-row-start: 1;
+  grid-column: 1 / span 7;
+}
+
+.sectionMain-container {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.box {
+  height: 100%;
+  width: 100%;
+  margin-bottom: 45px;
+}
+
+.box-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.box-text {
+  width: 100%;
+  margin-right: 15px;
+}
+
+.info-box {
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.info-box img {
+  margin-right: 10px;
+  border-radius: 50px;
+  width: 30px;
+}
+
+.info-box p {
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.title-box h2 {
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 25px;
+}
+
+.title-box h3 {
+  font-size: 15px;
+  color: grey;
+  padding-top: 5px;
+}
+
+.data-box p {
+  padding-top: 10px;
+  font-size: 15px;
+  color: grey;
+}
+
+.img-section {
+  width: 200px;
+}
