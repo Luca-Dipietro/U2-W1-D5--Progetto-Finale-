@@ -1,5 +1,5 @@
 * {
-  box-sizing: inherit;
+  box-sizing: border-box;
 }
 
 body {
@@ -32,7 +32,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  height: 25px;
+  height: 75px;
   padding: 25px 0px;
 }
 
@@ -122,7 +122,7 @@ body {
   padding-top: 40px;
   display: flex;
   align-items: center;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 }
 
 .trending-title img {
@@ -134,7 +134,7 @@ body {
   font-weight: 800;
 }
 
-.trend-cont {
+.trending-cont {
   width: 100%;
 }
 
@@ -144,20 +144,22 @@ body {
   flex-wrap: wrap;
   align-items: flex-start;
   padding-bottom: 20px;
+  width: calc(100% + 30px);
+  margin-right: -15px;
+  margin-left: -15px;
 }
 
 .cont-width {
-  max-width: 30%;
-  flex-basis: 33.333%;
-  padding-left: 18.5px;
-  padding-right: 18.5px;
+  max-width: 33.33333%;
+  flex-basis: 33.33333%;
+  padding-left: 15px;
+  padding-right: 15px;
+  flex-grow: 0;
 }
 
 .context {
   display: flex;
   flex-direction: row;
-  height: 100%;
-  width: 100%;
   align-items: flex-start;
   margin-bottom: 40px;
 }
@@ -185,18 +187,18 @@ body {
 
 .info-text img {
   border-radius: 50px;
-  width: 25px;
+  width: 20px;
 }
 
 .info-text p {
-  font-size: 13.5px;
+  font-size: 12px;
   margin-left: 10px;
   font-weight: 800;
 }
 
 .title-text {
   margin-bottom: 10px;
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 900;
 }
 
@@ -259,7 +261,7 @@ body {
 .info-box img {
   margin-right: 10px;
   border-radius: 50px;
-  width: 30px;
+  width: 25px;
 }
 
 .info-box p {
@@ -275,16 +277,16 @@ body {
 
 .title-box h3 {
   font-size: 15px;
-  color: grey;
+  color: #6b6b6b;
   padding-top: 5px;
 }
 
 .data-box p {
   padding-top: 10px;
   font-size: 15px;
-  color: grey;
+  color: #6b6b6b;
 }
 
-.img-section {
+.img-box {
   width: 200px;
 }
