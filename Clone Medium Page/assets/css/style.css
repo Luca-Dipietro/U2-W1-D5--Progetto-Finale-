@@ -26,7 +26,7 @@ body {
   position: sticky;
   top: 0;
   z-index: 1000;
-  transition: backgroundColor 0.5s ease;
+  transition: background-color 0.4s linear;
 }
 
 .width {
@@ -328,6 +328,11 @@ body {
   grid-column: 9 / span 4;
 }
 
+.aside-container {
+  position: sticky;
+  top: 105px;
+}
+
 .discovers {
   padding-bottom: 35px;
   border-bottom: 2px solid #f2f2f2;
@@ -378,6 +383,10 @@ body {
   font-size: 15px;
 }
 
-.nav.scrolled {
+.nav.scrolled1 {
   background-color: white;
+}
+
+.navB.scrolled2 {
+  background-color: #1a8917;
 }
