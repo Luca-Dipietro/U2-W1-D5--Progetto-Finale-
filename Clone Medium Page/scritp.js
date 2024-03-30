@@ -27,11 +27,13 @@ function randomOpacity() {
     "#random-letters text:not(.animated-letters)"
   );
   animatedLetters.forEach((letter) => {
-    letter.setAttribute("opacity", getRandom(0, 5));
+    letter.setAttribute("opacity", getRandom(0, 2));
   });
   staticLetters.forEach((letter) => {
     letter.setAttribute("opacity", 1);
   });
 }
 
-setInterval(randomOpacity, 300);
+setTimeout(() => {
+  setInterval(randomOpacity, 750);
+}, 250);
