@@ -94,8 +94,9 @@ body {
 .title {
   margin-bottom: 35px;
   font-size: 105px;
-  line-height: 90px;
+  line-height: 80px;
   font-family: "Spectral", serif;
+  font-weight: 500;
 }
 
 .subT {
@@ -108,10 +109,7 @@ body {
 
 .btn-start button {
   font-size: 20px;
-  padding: 8px 20px;
-  width: 170px;
-  line-height: 25px;
-  text-align: center;
+  padding: 10px 50px;
   border-radius: 25px;
   background-color: #191919;
   color: white;
